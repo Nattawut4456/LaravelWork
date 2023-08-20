@@ -21,3 +21,5 @@ Route::post('/vote/{id}/dislike',[VoteController::class,'dislike']);
 
 Route::get('vote/', [VoteController::class,'index']);
 
+Route::get('/logout',[ContentController::class,'logout']);
+
